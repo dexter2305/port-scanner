@@ -3,9 +3,6 @@ import java.io.IOException;
 import java.net.Socket;
 import java.util.concurrent.Callable;
 
-/**
- * Created by on 1/10/2016.
- */
 public class Connector implements Callable<Socket> {
     private final String hostname;
     private final int port;
